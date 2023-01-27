@@ -1,0 +1,34 @@
+# Bitcoin IP banlist dataset
+# This file contains a list of entities and their IP addresses that could be
+# malicious actors on the Bitcoin network.
+
+[[entities]]
+name = "LinkingLion"
+added = 2023-03-27
+tags = []
+description = """
+This entity connects from four IP address ranges to listening Bitcoin nodes
+using fake user agents. While many of the connections are short-lived, some
+listen for transaction announcements. This might allow the entity to link
+transactions to IP addresses.
+
+The IP address ranges are annouced by Lionlink Networks (AS54098):
+
+- `162.218.65.0/24`
+- `209.222.240.0/24`
+- `91.198.115.0/24`
+- `2604:d500:4:1::/64`
+
+Some of these IP ranges have been making connections to Bitcoin nodes since
+at least 2018 and connect to nodes on the Monero network too. It's unclear if
+they are VPN endpoints. The entity could be a blockchain analysis company
+enhancing their products with the collected data.
+
+More details:
+"""
+ips = [
+  "162.218.65.0/24",
+  "209.222.240.0/24",
+  "91.198.115.0/24",
+  "2604:d500:4:1::/64",
+]
