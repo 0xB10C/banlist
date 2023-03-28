@@ -24,7 +24,7 @@ at least 2018 and connect to nodes on the Monero network too. It's unclear if
 they are VPN endpoints. The entity could be a blockchain analysis company
 enhancing their products with the collected data.
 
-More details:
+More details: https://b10c.me/observations/06-linkinglion
 """
 ips = [
   "162.218.65.0/24",
