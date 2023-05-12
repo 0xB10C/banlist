@@ -15,7 +15,7 @@ transactions to IP addresses.
 The IP address ranges are annouced by Lionlink Networks (AS54098):
 
 - `162.218.65.0/24`
-- `209.222.240.0/24`
+- `209.222.252.0/24`
 - `91.198.115.0/24`
 - `2604:d500:4:1::/64`
 
@@ -28,7 +28,7 @@ More details: https://b10c.me/observations/06-linkinglion
 """
 ips = [
   "162.218.65.0/24",
-  "209.222.240.0/24",
+  "209.222.252.0/24",
   "91.198.115.0/24",
   "2604:d500:4:1::/64",
 ]
